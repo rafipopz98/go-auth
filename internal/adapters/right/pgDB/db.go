@@ -17,7 +17,7 @@ func NewDB() *DB {
 }
 
 func (db *DB) MakeDBConnection() error {
-	connStr := "postgres://avnadmin:AVNS_0OWTMktf96_v4t_iPEg@midas-lab-project-auth.c.aivencloud.com:16898/defaultdb?sslmode=require"
+	connStr := "kk"
 	// Connect to database
 	database, err := sql.Open("postgres", connStr)
 	if err != nil {
